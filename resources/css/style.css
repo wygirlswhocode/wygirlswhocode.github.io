@@ -12,6 +12,11 @@
 /*set the font*/
 html {
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  width:100%;
+}
+
+body{
+  width:100%;
 }
 
 /*make the header in the middle*/
@@ -21,7 +26,10 @@ html {
   /*adjusting background image*/
   background-image: url(../images/header.jpg);
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 250px;
 }
 
 
@@ -41,6 +49,9 @@ p{
 
 .navBar {
   text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;       
 }
 .navBar ul {
   /*remove bullet points*/
