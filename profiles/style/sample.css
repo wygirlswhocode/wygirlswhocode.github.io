@@ -24,7 +24,7 @@ body{
   text-align: center;
   margin: 0px;
   /*adjusting background image*/
-  background-image: url(../images/header.jpg);
+  background-image: url(http://cdn2.sportngin.com/attachments/news_article/6827/8505/girlswhocodegwc-logo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -58,7 +58,7 @@ p{
   /*remove bullet points*/
   list-style-type: none;
   padding: 10px 40px 10px 40px;
-  background: #333;
+  background: purple;
   /*make the navBar 80% transparent*/
   opacity: 0.8;
 
@@ -71,7 +71,7 @@ p{
 
 }
 .navBar li a{
-  color: white;
+  color: seashell;
   padding: 10px 20px;
 }
 
