@@ -1,0 +1,87 @@
+/*css reset*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+/*set the font*/
+html {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  width:100%;
+}
+
+body{
+  width:100%;
+}
+
+/*make the header in the middle*/
+.header {
+  text-align: left;
+  /*adjusting background image*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 250px;
+  height: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1{
+  font-size: 70px;
+  padding: 30px;
+}
+
+h2{
+  text-align: center;
+  font-size:35px;
+  padding-left: 10px;
+}
+p{
+  margin-bottom: 10px;
+}
+
+.navBar {
+  text-align: left;
+  position: 10%;
+  width: 15%;
+  bottom: 0;       
+}
+.navBar ul {
+  /*remove bullet points*/
+  list-style-type: none;
+  padding: 10px 40px 10px 40px;
+  background: #333;
+  /*make the navBar 80% transparent*/
+  opacity: 0.8;
+
+}
+.navBar li {
+  /*from a vertical list to all in a line*/
+  display: inline;
+  /*gives us a little space between items*/
+  /*The format for padding is top right bottom left*/
+
+}
+.navBar li a{
+  display: block;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navBar li a:hover {
+
+  background-color: #111;
+}
+
+.content {
+  padding: 10px;
+}
