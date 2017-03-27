@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>HTML tables</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>HTML tables</title>
+</head>
     <body>
 
         <h1>All About Dancers</h1>
         
         <ul>
-            <h2>The Beauty of Dance</h1>
-              <p>Dance is a beautiful form of art. It allows you to express yourself through movement, emotion, costumes, and lighting.
+            <h2>The Beauty of Dance</h2>
+              <p>Dance is a beautiful form of art. It allows you to express yourself through movement, emotion, costumes, and lighting.</p>
         </ul>
         
     </body>
