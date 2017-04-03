@@ -3,18 +3,18 @@
     <title> chihuahuas </title>
     <link href = 'profileStyle.css' rel = 'stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet"> <!-- Title -->
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet"> <!-- Memez -->
   </head>
 
-
 <style>
-  
+
 body {
       background-color: pink;
       font-family: 5px 'Slabo 27px', serif;
       color: white;
       margin: 0px;
 }
-div.socialMedia {
+.socialMedia {
   position: fixed;
   right: 10px;
   width: 75px;
@@ -41,7 +41,7 @@ div.socialMedia {
   #dots {
     top: 320px;
   }
-div.firstBox {
+.firstBox {
   /* ORANGE FLOWER BACKGROUND: https://s-media-cache-ak0.pinimg.com/originals/89/2d/0e/892d0e2871adffb78172d7ce21ec9950.jpg */
   /* COOL COLORFUL WAVE BACKGROUND: https://awesomewallpapers.files.wordpress.com/2015/02/waves_mac_fullhd.jpg */
       background-image: url(https://awesomewallpapers.files.wordpress.com/2015/02/waves_mac_fullhd.jpg);
@@ -65,12 +65,12 @@ div.firstBox {
       top: 75px;
     }
 
-div.loremIpsum {
+.loremIpsum {
       background-color: #09001d;
       font-size: 25px;
       top: 700px;
   
-      height: 700px;
+      height: 500px;
       margin: 0px;
   
       padding-top: 60px;
@@ -79,15 +79,18 @@ div.loremIpsum {
       padding-right: 100px;
 }
   #loremText {
-    font-size: 25px;
+    font: 25px 'Times New Roman', serif;
   }
 
-
-div.cutePicture {
+.cutePicture {
       background-image: url("http://s6.favim.com/610/141026/background-chihuahua-dark-dog-Favim.com-2181678.jpg");
       background-repeat: repeat;
-      height: 400px;
+      height: 500px;
+  #memez {
+        font-family: 'Rammetto One', cursive;
+    }
 </style>
+
 
 <body>
 
@@ -116,9 +119,8 @@ div.cutePicture {
 
 
 <!-- Lorem Ipsum text / INFO div -->
-<div class = 'loremIpsum'>
-  <p id = 'loremText'> 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-  <p> Personality Type (16Personalities): <a href = 'https://www.16personalities.com/infp-personality'> Moderator </a>
+<div class = 'loremIpsum' id = 'loremText'>
+  <p > Personality Type (16Personalities): <a href = 'https://www.16personalities.com/infp-personality'> Moderator </a>
   <p> Sign: Aries
   <p> Weaknesses:
     <p> Bad: Spoiled Milk
@@ -126,7 +128,9 @@ div.cutePicture {
 </div>
 
 <!-- cute image div -->
-<div class = 'cutePicture'></div>
+<div class = 'cutePicture'>
+    <h1 id = 'memez'> FAVORITE MEMES </h1>
+</div>
 
 
 </body>
