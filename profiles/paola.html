@@ -3,7 +3,7 @@
     <title> chihuahuas </title>
     <link href = 'profileStyle.css' rel = 'stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet"> <!-- Title -->
-    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet"> <!-- Memez -->
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet"> <!-- memeImage -->
   </head>
 
 <style>
@@ -20,8 +20,8 @@ body {
   width: 75px;
 }
 #mediaBubbleSize {
-      height: 60px;
-      width: 60px;
+      height: 65px;
+      width: 65px;
 }
   #github {
       top: 20px;
@@ -54,7 +54,7 @@ body {
     /* FONT OPTION 1: 'Cabin Sketch', cursive; */
     /* FONT OPTION 2: 'Cinzel Decorative', cursive; */
     /* FONT OPTION 3: 'Pattaya', sans-serif; */
-        font: 135px 'Pattaya', sans-serif;
+        font: 140px 'Pattaya', sans-serif;
         color: white; /* coral white i guess */
         padding-top: 40px;
         margin-bottom: 90px;
@@ -62,17 +62,17 @@ body {
     #dogAndDolphins {
       width: 30%;
       position: relative;
-      top: 75px;
+      top: 150px;
     }
 
 .loremIpsum {
       background-color: #09001d;
       font-size: 25px;
       top: 700px;
-  
+
       height: 500px;
       margin: 0px;
-  
+
       padding-top: 60px;
       padding-bottom: 50px;
       padding-left: 75px;
@@ -86,15 +86,19 @@ body {
       background-image: url("http://s6.favim.com/610/141026/background-chihuahua-dark-dog-Favim.com-2181678.jpg");
       background-repeat: repeat;
 
-#memeHeading {
-  font-family: 'Rammetto One', cursive;
-    }
-#MEMEZ {
-  width: 50%;
-  height: 50%;
+      padding-left: 100px;
+      position: static;
+  }
+  #memeHeading {
+    font: 50px 'Rammetto One', cursive;
+  }
+  #memeName {
+    font: 20px 'Rammetto One', cursive;
+  }
+  .memeImage{
+    width: 70%;
   }
 
- 
 </style>
 
 
@@ -110,7 +114,7 @@ body {
   <a href = 'https://twitter.com'   target = '_blank' id = 'twitter'>  <img src = 'https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697029-twitter-128.png'   id = 'mediaBubbleSize'></a>
   <a href = 'https://wygirlswhocode.github.io'    target = '_blank' id = 'dots'>     <img src = 'https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697058-flickr-128.png'    id = 'mediaBubbleSize'></a>
 </div>
-  
+
 
 <!-- PAGE STARTS HERE: Title Box div: has title, tabs, and a picture -->
 <div class = 'firstBox'>
@@ -129,42 +133,44 @@ body {
   <p > Personality Type: <a href = 'https://www.16personalities.com/infp-personality'> Moderator </a>
   <p> Sign: Aries
 
-  <p> Weaknesses: (bad) Spoiled Milk ; (good) Cannolis, Horchata
+  <p> Weaknesses: (bad) Spoiled Milk ; (good) Cannolis, Horchata, Dogs
 </div>
 
 <!-- Meme section : 6 rows (title w/ picture) & 2 columns -->
 <div class = 'memes'>
+  <center>
     <h1 id = 'memeHeading'> FAVORITE MEMES </h1>
-  
-    <table> 
+  </center>
+
+    <table>
 <!-- first row -->
       <tr>
-          <td> Student Athlete
-          <td> Kermit
+          <td id = "memeName"> Student Athlete
+          <td id = "memeName"> Kermit
       </tr>
       <tr>
-          <td> <img src = 'https://m.elitestatic.com/m/29f9bbd8221e6daa/student-athlete-hilarious-meme-tweet-4.jpg' id = 'studentAthlete' id = 'MEMEZ'> </td>
-          <td> <img src = 'https://media0ch-a.akamaihd.net/29/54/5997cbc43fda3388f653b4c302ab4c8f.jpg' id = 'darkKermit' id = 'MEMEZ'> </td>
+          <td> <img src = 'https://m.elitestatic.com/m/29f9bbd8221e6daa/student-athlete-hilarious-meme-tweet-4.jpg' class = 'memeImage'> </td>
+          <td> <img src = 'https://media0ch-a.akamaihd.net/29/54/5997cbc43fda3388f653b4c302ab4c8f.jpg' class = 'memeImage'> </td>
       </tr>
-      
+
 <!-- second row -->
       <tr>
-          <td>  Pepe
-          <td> Roll Safe
+          <td id = "memeName"> Pepe
+          <td id = "memeName"> Roll Safe
       </tr>
       <tr>
-          <td> <img src = 'http://media.breitbart.com/media/2016/10/sad-pepe-640x480.jpg' id = 'pepe' id = 'MEMEZ'>
-          <td> <img src = 'https://thechive.files.wordpress.com/2017/02/the-roll-safe-meme-is-here-with-the-best-life-advice-22-pics-27.jpg?quality=85&strip=info&w=600' id = 'rollSafe' id = 'MEMEZ'> </td>
+          <td> <img src = 'http://media.breitbart.com/media/2016/10/sad-pepe-640x480.jpg' class = 'memeImage'>
+          <td> <img src = 'https://thechive.files.wordpress.com/2017/02/the-roll-safe-meme-is-here-with-the-best-life-advice-22-pics-27.jpg?quality=85&strip=info&w=600' class = 'memeImage'> </td>
       </tr>
-      
+
 <!-- third row -->
       <tr>
-          <td> Salt Bae
-          <td> 
+          <td id = "memeName"> Salt Bae
+          <td id = "memeName"> IDK WHAT THIS IS CALLED
       </tr>
       <tr>
-          <td> <img src = 'http://swolegeneration.com/wp-content/uploads/2017/01/chef-meme.jpg' id = 'saltBae' id = 'MEMEZ'> </td>
-          <td> <img src = 'http://i1.kym-cdn.com/photos/images/newsfeed/001/184/543/d42.jpg' id = 'hhhmmmmmmm' id = 'MEMEZ'> </td>
+          <td> <img src = 'http://swolegeneration.com/wp-content/uploads/2017/01/chef-meme.jpg' class = 'memeImage'> </td>
+          <td> <img src = 'http://i1.kym-cdn.com/photos/images/newsfeed/001/184/543/d42.jpg' class = 'memeImage'> </td>
       </tr>
     </table>
 </div>
